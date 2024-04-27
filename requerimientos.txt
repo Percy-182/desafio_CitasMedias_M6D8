@@ -1,0 +1,65 @@
+Requerimientos
+
+1. El registro de los usuarios debe hacerse con la API Random User usando axios para consultar la data. (2 Puntos)
+
+2. Cada usuario registrado debe tener un campo id único generado por el paquete UUID.(2 Puntos)**INSTALADO**
+
+3. Cada usuario debe tener un campo timestamp almacenando la fecha de registro obtenida y formateada por el paquete Moment. (2 Puntos)**INSTALADO**
+
+4. Por cada consulta realizada al servidor, se debe devolverle al cliente una lista con los datos de todos los usuarios registrados usando Lodash para dividir el arreglo en 2 separando los usuarios por sexo. (2 Puntos)**INSTALADO**
+
+5. En cada consulta también se debe imprimir por la consola del servidor la misma lista de usuarios pero con fondo blanco y color de texto azul usando el paquete Chalk. (1Punto)**INSTALADO-**
+
+6. El servidor debe ser levantado con el comando Nodemon. (1 Punto)**INSTALADO**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Registro de usuarios con la API Random User usando Axios:
+
+Primero, necesitas importar Axios en tu archivo del servidor.
+Luego, utiliza Axios para hacer una solicitud a la API Random User y obtener datos de usuarios aleatorios.
+Asegúrate de manejar la respuesta de Axios correctamente y extraer los datos necesarios para el registro de usuarios.
+Generación de un campo ID único usando UUID:
+
+Instala el paquete UUID utilizando npm si aún no lo has hecho.
+Importa el módulo UUID en tu archivo del servidor.
+Utiliza la función uuidv4() de UUID para generar un ID único para cada usuario registrado.
+Almacenamiento de la fecha de registro usando Moment:
+
+Instala el paquete Moment utilizando npm si aún no lo has hecho.
+Importa el módulo Moment en tu archivo del servidor.
+Utiliza Moment para obtener la fecha y hora actual y formatearla según sea necesario.
+Asegúrate de agregar este campo de fecha de registro a cada usuario registrado.
+Devolver una lista de usuarios al cliente y dividirlos por sexo usando Lodash:
+
+Instala el paquete Lodash utilizando npm si aún no lo has hecho.
+Importa el módulo Lodash en tu archivo del servidor.
+Después de registrar cada usuario, agrégalo a una lista de usuarios.
+Utiliza Lodash para dividir esta lista de usuarios en dos grupos según el sexo.
+Devuelve esta lista de usuarios al cliente cuando se realice una consulta al servidor.
+Imprimir la lista de usuarios en la consola del servidor con colores usando Chalk:
+
+Instala el paquete Chalk utilizando npm si aún no lo has hecho.
+Importa el módulo Chalk en tu archivo del servidor.
+Utiliza Chalk para imprimir la lista de usuarios en la consola del servidor con un fondo blanco y texto azul.
+Levantar el servidor con Nodemon:
+
+Asegúrate de tener Nodemon instalado globalmente o como una dependencia de desarrollo en tu proyecto.
+Utiliza el comando nodemon seguido del nombre de tu archivo del servidor para iniciar el servidor. Esto hará que Nodemon supervise los cambios en tu código y reinicie automáticamente el servidor cuando sea necesario.
+Si necesitas más detalles sobre cómo implementar alguno de estos pasos o si deseas ver ejemplos de código específicos, no dudes en preguntar.
